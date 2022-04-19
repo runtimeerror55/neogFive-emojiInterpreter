@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(150, 150, 255, 1);
+}
+
+.main-article-one {
+    width: 50vw;
+}
+
+.main-article-one-header-one {
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+}
+
+.input-containter,
+.main-article-one-header-one,
+.output-container,
+.emoji-container {
+    padding: 10px;
+}
+
+.output-container {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.emojis-container {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+
+.emoji {
+    padding: 10px;
+    font-size: 1.5em;
+    display: inline-block;
+    cursor: pointer;
+}
